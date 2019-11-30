@@ -26,6 +26,7 @@ img {
   width: 100%;
   display: block;
 }
+
 .photo:nth-child(5) {
   display: none;
 }
@@ -41,30 +42,30 @@ section {
 
 @media only screen and (min-width: 25em) {
 
-   .photo:nth-child(1) {
-     width: 100%;
-     display: block;
-   }
+  .photo:nth-child(1) {
+    width: 100%;
+    display: block;
+  }
 
-   .photo:nth-child(2) {
-     width: 50%;
-     display: inline-block;
-   }
+  .photo:nth-child(2) {
+    width: 50%;
+    display: inline-block;
+  }
 
-   .photo:nth-child(3) {
-     width: 50%;
-     display: inline-block;
-   }
+  .photo:nth-child(3) {
+    width: 50%;
+    display: inline-block;
+  }
 
-   .photo:nth-child(4) {
-     width: 50%;
-     display: inline-block;
-   }
+  .photo:nth-child(4) {
+    width: 50%;
+    display: inline-block;
+  }
 
-   .photo:nth-child(5) {
-     width: 50%;
-     display: inline-block;
-   }
+  .photo:nth-child(5) {
+    width: 50%;
+    display: inline-block;
+  }
 
 }
 
@@ -76,12 +77,12 @@ section {
 
   .photo:nth-child(1) {
     display: block;
-    width: 100%
+    width: 100%;
   }
 
   .photo:nth-child(2), .photo:nth-child(3), .photo:nth-child(4) {
     display: inline-block;
-    width: 33.3333%
+    width: 33.3333%;
   }
 
 }
@@ -90,12 +91,12 @@ section {
 
   .photo:nth-child(1) {
     width: 66.6666%;
-    display: block
+    display: block;
   }
 
   .photo:nth-child(2), .photo:nth-child(3), .photo:nth-child(4), .photo:nth-child(5) {
     width: 33.3333%;
-    display: block
+    display: block;
   }
 
 }
